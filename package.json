@@ -1,0 +1,9 @@
+{
+  "name": "@redturtle/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared eslint config for js projects",
+  "main": "index.js",
+  "repository": "https://github.com/RedTurtle/eslint-config",
+  "author": "Piero Nicolli <piero.nicolli@redturtle.it>",
+  "license": "MIT"
+}
