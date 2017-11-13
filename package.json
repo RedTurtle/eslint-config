@@ -1,9 +1,37 @@
 {
   "name": "@redturtle/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Shared eslint config for js projects",
   "main": "index.js",
   "repository": "https://github.com/RedTurtle/eslint-config",
   "author": "Piero Nicolli <piero.nicolli@redturtle.it>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "flowtype",
+    "flow-bin",
+    "redturtle"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.8.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.8.2"
+  },
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint index.js",
+    "prettier:test": "prettier --list-different index.js"
+  }
 }
