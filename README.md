@@ -1,6 +1,8 @@
 RedTurtle - eslint-config
 =========================
 
+[![Build Status](https://travis-ci.org/RedTurtle/eslint-config.svg?branch=master)](https://travis-ci.org/RedTurtle/eslint-config)
+
 This package provides an eslint-config with mostly recommended rules. It already includes prettier configuration.
 
 Installation and usage
