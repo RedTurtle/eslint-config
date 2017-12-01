@@ -1,6 +1,6 @@
 {
   "name": "@redturtle/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Shared eslint config for js projects",
   "main": "index.js",
   "repository": "https://github.com/RedTurtle/eslint-config",
