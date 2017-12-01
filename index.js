@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    browser: true,
     es6: true,
     node: true,
   },
@@ -23,7 +24,7 @@ module.exports = {
     'prettier/prettier': [
       'warn',
       {
-        parser: 'flow',
+        printWidth: 80,
         singleQuote: true,
         trailingComma: 'es5',
       },
