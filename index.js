@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     browser: true,
+    commonjs: true,
     es6: true,
     node: true,
   },
@@ -17,7 +18,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  plugins: ['flowtype', 'prettier'],
+  plugins: ['import', 'flowtype', 'prettier'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
