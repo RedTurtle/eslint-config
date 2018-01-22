@@ -1,6 +1,13 @@
 Changelog for @redturtle/eslint-config
 ======================================
 
+1.2.0 - (2018/01/22)
+--------------------
+
+- Added eslint-plugin-import [pnicolli]
+- Updated dependencies [pnicolli]
+
+
 1.1.0 - (2017/12/01)
 --------------------
 
