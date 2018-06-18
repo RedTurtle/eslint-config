@@ -1,6 +1,17 @@
 Changelog for @redturtle/eslint-config
 ======================================
 
+2.0.0 - (2018/06/18)
+--------------------
+
+Breaking:
+- Removed flow dependency. It's better to add it in individual projects that actually use flow. [pnicolli]
+
+New:
+- Upgraded dev dependencies [pnicolli]
+- Added peer dependencies to the README [pnicolli]
+
+
 1.2.0 - (2018/01/22)
 --------------------
 

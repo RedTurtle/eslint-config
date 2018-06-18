@@ -5,12 +5,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:flowtype/recommended',
-    'prettier',
-    'prettier/flowtype',
-  ],
+  extends: ['eslint:recommended', 'prettier'],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
@@ -18,7 +13,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  plugins: ['import', 'flowtype', 'prettier'],
+  plugins: ['import', 'prettier'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],

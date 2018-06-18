@@ -9,27 +9,24 @@
   "keywords": [
     "eslint",
     "prettier",
-    "flowtype",
-    "flow-bin",
-    "redturtle"
+    "redturtle",
+    "config"
   ],
   "peerDependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.16.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.5.0",
     "prettier": "^1.10.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.16.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-flowtype": "^2.41.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.5.0",
-    "prettier": "^1.10.2"
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.13.5"
   },
   "scripts": {
     "test": "npm run eslint",

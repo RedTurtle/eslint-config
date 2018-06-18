@@ -17,6 +17,15 @@ $ yarn add --dev @redturtle/eslint-config
 $ npm install --save-dev @redturtle/eslint-config
 ```
 
+If you don't have those already, install peer dependencies:
+```shell
+# Yarn
+$ yarn add --dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier prettier
+
+# Npm
+$ npm install --save-dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier prettier
+```
+
 Extend this config in your `.eslintrc` file:
 ```json
 {
