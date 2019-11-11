@@ -4,6 +4,7 @@ module.exports = {
     commonjs: true,
     es6: true,
     node: true,
+    jest: true,
   },
   extends: ['eslint:recommended', 'prettier'],
   parserOptions: {
@@ -22,7 +23,7 @@ module.exports = {
       {
         printWidth: 80,
         singleQuote: true,
-        trailingComma: 'es5',
+        trailingComma: 'all',
       },
     ],
     quotes: ['error', 'single'],
