@@ -1,6 +1,13 @@
 Changelog for @redturtle/eslint-config
 ======================================
 
+3.0.1 - (2021/04/07)
+--------------------
+
+Fix:
+
+- Remove indent rule, it was conflicting with prettier [pnicolli]
+
 3.0.0 - (2019/11/11)
 --------------------
 
@@ -26,13 +33,11 @@ New:
 - Upgraded dev dependencies [pnicolli]
 - Added peer dependencies to the README [pnicolli]
 
-
 1.2.0 - (2018/01/22)
 --------------------
 
 - Added eslint-plugin-import [pnicolli]
 - Updated dependencies [pnicolli]
-
 
 1.1.0 - (2017/12/01)
 --------------------
@@ -41,12 +46,10 @@ New:
 - Prettier no longer forced to use flow parser [pnicolli]
 - Fixed prettier line width to 80 columns [pnicolli]
 
-
 1.0.1 - (2017/11/14)
 --------------------
 
 - Updated README [pnicolli]
-
 
 1.0.0 - (2017/11/14)
 --------------------
